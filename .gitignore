@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+NAMESPACE
+inst/doc
+
+*.aux
+*.out
+*.synctex
+*.RD
+doc
+Meta
