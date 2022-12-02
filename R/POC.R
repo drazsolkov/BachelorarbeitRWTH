@@ -33,7 +33,7 @@ POC_2_RAR_A1 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161942)
+    set.seed(NULL)
     
     grpoc = 2.178
     for (i in 1:norep)
@@ -194,7 +194,7 @@ POC_3_RAR_A1 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(16)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -399,7 +399,7 @@ POC_4_RAR_A1 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(1043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -645,7 +645,7 @@ POC_2_RAR_A2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161942)
+    set.seed(NULL)
     
     grpoc = 2.178
     for (i in 1:norep)
@@ -808,7 +808,7 @@ POC_3_RAR_A2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(16)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1017,7 +1017,7 @@ POC_4_RAR_A2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1269,7 +1269,7 @@ POC_2_PBD2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161942)
+    set.seed(NULL)
     
     grpoc = 2.178
     for (i in 1:norep)
@@ -1431,7 +1431,7 @@ POC_3_PBD2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1640,7 +1640,7 @@ POC_4_PBD2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1886,7 +1886,7 @@ POC_2_BSD_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       grpoc = 2.178
       for (i in 1:norep)
@@ -2056,7 +2056,7 @@ POC_3_BSD_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -2276,7 +2276,7 @@ POC_4_BSD_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -2545,7 +2545,7 @@ POC_2_BSD_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161942)
+      set.seed(NULL)
       
       grpoc = 2.178
       for (i in 1:norep)
@@ -2727,7 +2727,7 @@ POC_3_BSD_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -2951,7 +2951,7 @@ POC_4_BSD_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -3236,7 +3236,7 @@ POC_2_EBC <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       grpoc = 2.178
       for (i in 1:norep)
@@ -3411,7 +3411,7 @@ POC_3_EBC <- function(n, norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -3636,7 +3636,7 @@ POC_4_EBC <- function(n, norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -3906,7 +3906,7 @@ POC_2_CHEN_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       grpoc = 2.178
       for (i in 1:norep)
@@ -4078,7 +4078,7 @@ POC_3_CHEN_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -4300,7 +4300,7 @@ POC_4_CHEN_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -4570,7 +4570,7 @@ POC_2_CHEN_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161942)
+      set.seed(NULL)
       
       grpoc = 2.178
       for (i in 1:norep)
@@ -4757,7 +4757,7 @@ POC_3_CHEN_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -4994,7 +4994,7 @@ POC_4_CHEN_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(16564)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {

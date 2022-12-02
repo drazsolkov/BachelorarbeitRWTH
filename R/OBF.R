@@ -35,7 +35,7 @@ OBF_2_RAR_A1 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161042)
+    set.seed(NULL)
     
     
     for (i in 1:norep)
@@ -191,7 +191,7 @@ OBF_3_RAR_A1 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -400,7 +400,7 @@ OBF_4_RAR_A1 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(1610)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -652,7 +652,7 @@ OBF_2_RAR_A2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161042)
+    set.seed(NULL)
     
     
     for (i in 1:norep)
@@ -812,7 +812,7 @@ OBF_3_RAR_A2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1029,7 +1029,7 @@ OBF_4_RAR_A2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(1610)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1289,7 +1289,7 @@ OBF_2_PBD2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161042)
+    set.seed(NULL)
     
     
     for (i in 1:norep)
@@ -1449,7 +1449,7 @@ OBF_3_PBD2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1659,7 +1659,7 @@ OBF_4_PBD2 <- function(n,norep) {
     
     
     eta = eta_vector[m]
-    set.seed(161043)
+    set.seed(NULL)
     
     for (i in 1:norep)
     {
@@ -1912,7 +1912,7 @@ OBF_2_BSD_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       
       for (i in 1:norep)
@@ -2084,7 +2084,7 @@ OBF_3_BSD_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -2312,7 +2312,7 @@ OBF_4_BSD_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -2584,7 +2584,7 @@ OBF_2_BSD_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       
       for (i in 1:norep)
@@ -2759,7 +2759,7 @@ OBF_3_BSD_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -2986,7 +2986,7 @@ OBF_4_BSD_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(16103)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -3269,7 +3269,7 @@ OBF_2_EBC <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       
       for (i in 1:norep)
@@ -3444,7 +3444,7 @@ OBF_3_EBC <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -3673,7 +3673,7 @@ OBF_4_EBC <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -3945,7 +3945,7 @@ OBF_2_CHEN_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       
       for (i in 1:norep)
@@ -4131,7 +4131,7 @@ OBF_3_CHEN_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -4360,7 +4360,7 @@ OBF_4_CHEN_A1 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -4636,7 +4636,7 @@ OBF_2_CHEN_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161042)
+      set.seed(NULL)
       
       
       for (i in 1:norep)
@@ -4818,7 +4818,7 @@ OBF_3_CHEN_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(161043)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
@@ -5063,7 +5063,7 @@ OBF_4_CHEN_A2 <- function(n,norep) {
       
       
       eta = eta_vector[m]
-      set.seed(16103)
+      set.seed(NULL)
       
       for (i in 1:norep)
       {
